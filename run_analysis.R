@@ -49,3 +49,4 @@ write.table(tidy, "tidy.txt", sep="\t",  row.name=FALSE)
 
 # Cleaning up before I leave
 rm(list=ls())
+

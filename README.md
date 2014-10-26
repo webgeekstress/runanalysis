@@ -24,9 +24,13 @@ Good luck!
 
 *************************************************************
 
-In particular, this repository consists of
+In particular, this repository contains
 
 1. README.md (this file)
 2. CodeBook.md (describing the data used)
 3. runanalysis.R (a stand-alone script which reads in data files, subsets them, merges them, and presents a new data set with averages calculated broken down by subject and activity)
 4. the resulting data set named tidy.txt
+
+**************************************************************
+
+runanalysis.R presupposes that the data is in a folder called "UCI HAR Dataset" within the working directory.  It yields a wide tidy data set.  
